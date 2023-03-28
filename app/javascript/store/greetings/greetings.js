@@ -1,12 +1,11 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-
 const API_URL = 'http://localhost:3000/api/v1/greetings';
-
 const FETCH = 'hello_react_rails/greetings/FETCH';
 
 const initialState = {
   greeting: '',
 };
+
 export default (state = initialState, action) => {
   switch (action.type) {
     case `${FETCH}/fulfilled`:

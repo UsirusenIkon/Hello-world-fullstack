@@ -1,15 +1,23 @@
+<a name="readme-top"></a>
+
+<div align="center">
+  <h3><b>Hello Rails React</b></h3>
+</div>
+
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello-world-App ](#-hello-world-app-)
+- [📖 Hello Rails React ](#-hello-rails-react-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
-    - [Install \& Setup](#install--setup)
-    - [Tests](#tests)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -19,78 +27,100 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello-world-App <a name="about-project"></a>
+# 📖 Hello Rails React <a name="about-project"></a>
 
- **Hello-world-App** is an app that displays random message, I used React and Ruby on Rails in one app.
+**Hello Rails React** is a simple web app that combines functionalities of Ruby on Rails and React. It allows users to get a random greeting from the backend API.
 
+## 🛠 Built With <a name="built-with"></a>
 
-## 🛠 Built With <a name="React.js"></a>
-
-### Tech Stack <a name="Javascript"></a>
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a></li>
   </ul>
 </details>
 
-<!-- Features -->
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
-- Making use of React to consume a rails api
+
+- **It allows a user to get random greeting**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> None
-
+- Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To start and run this project
-```
-npm run dev
-```
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- IDE to edit and run the code (We use Visual Studio Code 🔥).
-- Git to versionning your work.
+In order to run this project you need:
 
-### Install & Setup
+- Ruby development environment
+- Rails
+- Node
+- npm or yarn
 
-To setup and install this sample ROR Blog project, follow the below steps:
-- Clone this project by the command: 
+### Setup
 
-```
-$ git clone https://github.com/UsirusenIkon/Hello-world-fullstack.git
-```
+Clone this repository to your desired folder:
 
-- Then switch to the project folder by the bellow query:
-
-```
-$ cd Hello-world-fullstack
+```sh
+  git clone 'https://github.com/UsirusenIkon/Hello-world-full-stack.git'
 ```
 
-- Install npm dependencies with `npm install`
-- With vite-react installed in your environment, you can run `npm run dev` to run the website.
+```sh
+  cd hello-react-rails
+```
 
-### Tests
+### Install
 
-- no required testing involved
+Install this project with:
+
+```sh
+  cd hello-rails-react
+  bundle install
+  yarn install || npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  ./bin/dev
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  rspec
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
 
@@ -101,22 +131,13 @@ $ cd Hello-world-fullstack
    - Twitter: [@Usirusen_Ikon](https://twitter.com/Usirusen_Ikon)
    - LinkedIn: [Usirusen Ikon](https://www.linkedin.com/in/usirusen-ikon)
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **Used react-router**
-- [ ] **Consumed a rails api**
+- [ ] **It will allow users to record their greeting**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -126,29 +147,20 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project give it a :star
+If you like this project you can give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I would like to thank Microverse for these Design Guidelines
-- Original design idea by .
-- Hat tip to anyone whose code was used 🤝
-- Inspiration 🔥
+I would like to thank the Microverse curriculum.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

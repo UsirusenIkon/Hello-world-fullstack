@@ -1,11 +1,11 @@
-import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import Greeting from './pages/Greeting';
+import React from 'react';
 
-const App = () => {
+function App() {
   return (
     <div>
-      <h1>Hello Friend</h1>
+      <h1>Hello Friends</h1>
       <Link to="/greeting">Welcome</Link>
       <Routes>
         <Route path="/greeting" element={<Greeting />} />
@@ -13,4 +13,5 @@ const App = () => {
     </div>
   );
 };
+
 export default App;
